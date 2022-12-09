@@ -49,7 +49,7 @@ Sample Output 2
 */
 // THIS CODE IS NOT WORKING FOR MULTIPLE TESTCASES 
 // because here it is only focusing on cost(ans.second) but when it will return ans than its value (ans.first) would place an important role in further calculating values
-// this commneted code is correct one
+// commneted code is NOT correct
 /*
 ********************   CORRECT CODE   *********************************
                         (not by me)
@@ -77,7 +77,7 @@ Sample Output 2
                 This makes the code given below O(N^5).
 
 CODE : 
-
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -128,7 +128,7 @@ signed main(){
     solve();
 }
 
-*/
+/*     MINE CODE (NOT CORRECT)
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -202,3 +202,4 @@ signed main()
      for(int i = 1;i<t+1;i++)solve(i);
      return 0;
 }
+*/
